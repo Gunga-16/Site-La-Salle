@@ -1,5 +1,5 @@
 body{
-    font-family:’Poppins’,sans-serif;
+    font-family:'Poppins',sans-serif;
 }
 
 * {
@@ -26,50 +26,78 @@ body{
     font-size: 20px;
 }
 
-.escola-imagem{
-	width:70%;
-	display: flex;
+.pagina-inicio {
+    color: black;
+    text-decoration: none;
+}
+
+.pagina-escola {
+    color: black;
+    text-decoration: none;
+}
+
+.pagina-estudantes {
+    color: black;
+    text-decoration: none;
+}
+
+.pagina-noticias {
+    color: black;
+    text-decoration: none;
+}
+
+.colegio-la-salle_imagem{
+	width: 50%;
+    padding: 24px 0;
+    margin: auto;
+    display: block;
+}
+
+.colegio-la-salle {
+    background-image: linear-gradient(#1400FF,#051150);
+    color: white;
+    align-items: center;
     justify-content: center;
+    display: flex;
     padding: 24px 0;
 }
 
-.escola {
-    background-image: linear-gradient(#1400FF,#051150);
-    color: white;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.escola-titulo{
+.colegio-la-salle_titulo{
 	padding: 24px 0;
 }
 
-.escola-conteudo{
+.colegio-la-salle_conteudo{
+    font-size: 24px;
+    margin: 0 10em;
+}
+
+.sobre-imagem {
+	width: 60%;
+    padding: 24px 0;
+    margin: auto;
+    display: block;
+}
+
+.sobre {
+    background-image: linear-gradient(#ff0000,#000000);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sobre-titulo{
+	padding: 24px 0;
+}
+
+.sobre-conteudo{
+    margin: 0 10em;
     width: 90%;
     font-size: 24px;
 }
 
-.estudante-imagem{
+.sobre-texto{
     width: 70%;
-}
-
-.estudante-github{
-    width:24px;
-}
-
-.estudante-div {
-    text-align: center;
-}
-
-.estudante-titulo{
-    text-align: center;
-    padding: 50px 0;
-}
-
-.estudante-todos {
-    display:grid;
-    grid-template-columns: 20% 20% 20% 20%;
 }
 
 footer{
